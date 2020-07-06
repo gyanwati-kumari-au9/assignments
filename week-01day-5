@@ -1,0 +1,8 @@
+1. What happens when you hit www.google.com in your browser?
+when we hit www.google.com then browser  1st query DNS server  and retrieve IP address of the server after this browser loads html,css,js files from the server and display nice page in browser. 
+
+2. What is a dns?
+
+DNS stands for domain name server every DNS have corresponding IP address which is not possible to remember of human because IP address in numeric form like [2404:6800:4002:811::200e] so every IP address have corresponding domain name which is easy to remember.
+
+

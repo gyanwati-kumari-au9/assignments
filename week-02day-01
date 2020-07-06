@@ -1,0 +1,138 @@
+
+1: Play with repl while running commands and operators
+
+REPL stand for  read evaluate print loop.
+
+>>> print("Hello guys, this is Gyan here")
+Hello guys, this is Gyan here
+
+
+2: Given a no print its remainder. Which command will you use ?
+
+rem commands will be used for remainder
+like rem=12%2 here rem=0
+>>> rem=45%2
+>>> rem
+1
+>>> rem=14%2
+>>> rem
+0
+>>> rem=50%2
+>>> rem
+0
+
+3: Experiment with str concatenation.
+
+String concatenation is a addition of two or more string. suppose a="Ram"
+b="sita" and c=a+b here c is 'Ramsita' if we want to print separatly use to space like c=a + " " + b then we get c is 'Ram sita'
+
+>>> a="Ram"
+>>> b="Sita"
+>>> c=a+b
+>>> a
+'Ram'
+>>> b
+'Sita'
+>>> c
+'RamSita'
+>>> c = a + " " + b
+>>> c
+'Ram Sita'
+
+
+4: try naming some variables and see what all variables names throws error .
+Variables: variables are used to store information to be referenced and manipulated in a computer program. in other words we can say variables just like container and corresponds a space in memory. 
+Rule to name of variables: 
+[a-z,A-Z,] [any character]
+a123
+_a24
+_b
+
+some variable throws error:
+
+>>> @d=5
+  File "<stdin>", line 1
+    @d=5
+      ^
+SyntaxError: invalid syntax
+>>> $k=8.9
+  File "<stdin>", line 1
+    $k=8.9
+    ^
+SyntaxError: invalid syntax
+>>> a-b=5
+  File "<stdin>", line 1
+SyntaxError: can't assign to operator
+>>> -b=6
+  File "<stdin>", line 1
+SyntaxError: can't assign to operator
+>>> %A=8
+  File "<stdin>", line 1
+    %A=8
+    ^
+SyntaxError: invalid syntax
+
+etc.
+
+
+5.Explore more on the things we learned in the class.
+datatype:
+>>> a=5
+>>> type(a)
+<class 'int'>
+>>> a=7.55558
+>>> type(a)
+<class 'float'>
+>>> b="hello"
+>>> type(b)
+<class 'str'>
+
+addition,substraction,multiplication and division:
+>>> a=5
+>>> b=8.6
+>>> x=a+b
+>>> x
+13.6
+>>> x=a-b
+>>> x
+-3.5999999999999996
+>>> x=a*b
+>>> x
+43.0
+>>> x=a/b
+>>> x
+0.5813953488372093
+
+if else condition:
+>>> a=3
+>>> b=3
+>>> if a==b:
+...  print("true")
+... else :
+...  print("false")
+... 
+true
+
+>>> a=5
+>>> b=8.9
+>>> if (a==b) :
+...  print("true")
+... else :
+...  print("false")
+... 
+false
+
+elseif conditions:
+>>> a=8
+>>> b=45
+>>> if (a>b) :
+...  print("entered value a is greater than b" )
+... elif (a<b) :
+...  print("entered value a is less than b")
+... else :
+...  print("invalid")
+... 
+entered value a is less than b
+
+
+

@@ -1,0 +1,113 @@
+(1). Practice all the commands we learned in the class
+
+1. git checkout -b new_branch : This command used to create a new branch like git checkout -b user1
+% git checkout -b user1
+Switched to a new branch 'user1'
+
+2. git branch : command shows to all  branch which is present like git branch
+ % git branch
+  master
+* user1
+
+
+3. git checkout branch_name : command move to given branch name like git checkout master
+% git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+gyan@Abhisheks-MacBook-Air-63 assignments % git branch
+* master
+  user1
+
+
+4. git log : this command shows all details of commit file like git log
+% git log   
+commit 07bcc667e8788b97a6b47065d9a21834da0d7af6 (HEAD -> master, origin/master, user1)
+Author: Gyan <gyan@Abhisheks-MacBook-Air-63.local>
+Date:   Wed Jul 1 18:10:34 2020 +0530
+
+    update file
+
+commit 1248542093ceecddc4f93f568810b4811e5fabdc
+Author: Gyan <gyan@Abhisheks-MacBook-Air-63.local>
+Date:   Wed Jul 1 18:06:24 2020 +0530
+
+    for checking
+
+commit 92c4f3a9c77266d0a26630d37fc0ba326ef60e65
+Author: Gyan <gyan@Abhisheks-MacBook-Air-63.local>
+Date:   Wed Jul 1 16:23:56 2020 +0530
+
+    week-01day-3
+
+
+5. git log --oneline --graph : this command shows the log in one line like 
+ % git log --oneline --graph
+* 07bcc66 (HEAD -> master, origin/master, user1) update file
+* 1248542 for checking
+* 92c4f3a week-01day-3
+* d93150b movies
+* 733abe7 ram
+* 3454da2 abi
+* 2e5e9b7 hello this is gyan here
+* 5dfdb5c hello gyan
+* 783e9ac week-01day-2
+* e7f868a week-01day-2
+* e9530fd Corrected directory path
+* 9377df0 removed extra file
+* 8b8c165 week-01 First assignments
+
+6. git merge branch_name : this command used to merge a branch.Suppose we have  three user and work separtly now we want to combine a work that case we can use this command like
+% git merge user1
+Already up to date.
+gyan@Abhisheks-MacBook-Air-63 assignments % git merge user2
+Already up to date.
+   
+7. git checkout hash_of_commit : this command used to any previous commit.
+% git checkout 92c4f3a9c77266d0a26630d37fc0ba326ef60e65
+HEAD is now at 92c4f3a... week-01day-3
+
+8. git clone :this command used to clone repo . Suppose we have repository file on github server and we want to move in local in this case used this command.
+ % git clone git@github.com:gyanwati-au10/assignments.git
+Cloning into 'assignments'...
+remote: Enumerating objects: 38, done.
+remote: Counting objects: 100% (38/38), done.
+remote: Compressing objects: 100% (26/26), done.
+remote: Total 38 (delta 9), reused 36 (delta 7), pack-reused 0
+Receiving objects: 100% (38/38), 6.02 KiB | 1.50 MiB/s, done.
+Resolving deltas: 100% (9/9), done.
+
+9. git push : this command used to push to github server
+ % git push
+Counting objects: 2, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (2/2), 255 bytes | 255.00 KiB/s, done.
+Total 2 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:gyanwati-au10/assignments.git
+   b3239e1..d0ada83  master -> master
+
+10. git pull : this command used to transfer a file on github server to local
+   % git pull
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 2 (delta 1), reused 2 (delta 1), pack-reused 0
+Unpacking objects: 100% (2/2), done.
+From github.com:gyanwati-au10/assignments
+   b3239e1..d0ada83  master     -> origin/master
+Updating b3239e1..d0ada83
+Fast-forward
+ lecture | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 lecture
+
+
+(2).Create a repository in your github and practice all the commands
+
+repository created 
+git@github.com:gyanwati-au10/practice.git
+
+
+
+

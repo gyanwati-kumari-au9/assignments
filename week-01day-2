@@ -1,0 +1,49 @@
+
+1. Can you tell about some of the commonly used UNIX commands on a daily life?
+ 
+  Commonly used UNIX commands are ls,pwd,cd,touch,mkdir,rm,cp,mv and cat.
+
+2. How can you create a text file using the command line?
+
+we can use touch command for create a empty file like touch filename.txt
+
+%touch newsessions.txt
+gyan@Abhisheks-MacBook-Air-63 assignments % ls
+newsessions.txt	week-01-day1
+
+
+3. What is the command you will use to delete a directory and its content?
+we are using rm command for delete the file or folder for example
+1st delete the file we can use command rm -r filename
+% rm -r newsessions.txt
+gyan@Abhisheks-MacBook-Air-63 assignments % ls
+week-01-day1
+gyan@Abhisheks-MacBook-Air-63 assignments % pwd
+/Users/gyan/attainu/assignments
+
+now delete the folder we can also use same command rm -r foldername
+% ls -l
+total 8
+drwxr-xr-x  2 gyan  staff    64 Jun 30 21:01 videos
+-rw-r--r--  1 gyan  staff  1189 Jun 30 19:41 week-01-day1
+gyan@Abhisheks-MacBook-Air-63 assignments % rm -r videos
+gyan@Abhisheks-MacBook-Air-63 assignments % ls -l
+total 8
+-rw-r--r--  1 gyan  staff  1189 Jun 30 19:41 week-01-day1
+
+
+
+4. Try to create directory and remove them and play with the above commands
+
+we are using command mkdir foldername to create a directory and remove the folder we are using command rm -r foldername 
+% mkdir attainU1
+gyan@Abhisheks-MacBook-Air-63 assignments % ls -l
+total 8
+drwxr-xr-x  2 gyan  staff    64 Jun 30 21:16 attainU1
+-rw-r--r--  1 gyan  staff  1189 Jun 30 19:41 week-01-day1
+
+now remove the folder
+% rm -r attainU1
+gyan@Abhisheks-MacBook-Air-63 assignments % ls -l
+total 8
+-rw-r--r--  1 gyan  staff  1189 Jun 30 19:41 week-01-day1

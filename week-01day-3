@@ -1,0 +1,196 @@
+Experiment of GIT Commands:-
+1. Git status : this command shows the details of the files in staging or unstaging area
+% git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	deleted:    abi
+	modified:   ram
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+	.week-01day-3.swp
+	movies
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+
+2. Git add : command used to store a files like git add ./ git add filename
+
+ % git add movies
+gyan@Abhisheks-MacBook-Air-63 assignments % git status
+On branch master
+Your branch is ahead of 'origin/master' by 4 commits.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	new file:   movies
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	deleted:    abi
+	modified:   ram
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.DS_Store
+	.week-01day-3.swp
+  
+
+3. Git commit : command used to commits the file like git commit -m "message"
+% git commit -m "movies"
+[master d93150b] movies
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 movies
+
+
+4. Git log : command show all commited file details like git log
+% git log
+commit d93150b6800d6b0ed396ebf6d511c392e4aed318 (HEAD -> master)
+Author: Gyan <gyan@Abhisheks-MacBook-Air-63.local>
+Date:   Wed Jul 1 15:27:17 2020 +0530
+
+    movies
+
+commit 733abe75dc770897fab3bcdd07217209675b1b3a
+Author: Gyan <gyan@Abhisheks-MacBook-Air-63.local>
+Date:   Wed Jul 1 14:51:40 2020 +0530
+
+    ram
+
+commit 3454da2358fc19eac9ac632fb8b0de8237d40da7
+Author: Gyan <gyan@Abhisheks-MacBook-Air-63.local>
+Date:   Wed Jul 1 14:42:16 2020 +0530
+
+    abi
+
+commit 2e5e9b701401133eacd62a5db93dbaa5cc2d8d43
+Author: Gyan <gyan@Abhisheks-MacBook-Air-63.local>
+Date:   Wed Jul 1 14:28:36 2020 +0530
+
+    hello this is gyan here
+:...skipping...
+commit d93150b6800d6b0ed396ebf6d511c392e4aed318 (HEAD -> master)
+Author: Gyan <gyan@Abhisheks-MacBook-Air-63.local>
+Date:   Wed Jul 1 15:27:17 2020 +0530
+
+    movies
+
+commit 733abe75dc770897fab3bcdd07217209675b1b3a
+Author: Gyan <gyan@Abhisheks-MacBook-Air-63.local>
+Date:   Wed Jul 1 14:51:40 2020 +0530
+
+    ram
+
+commit 3454da2358fc19eac9ac632fb8b0de8237d40da7
+Author: Gyan <gyan@Abhisheks-MacBook-Air-63.local>
+Date:   Wed Jul 1 14:42:16 2020 +0530
+
+    abi
+
+commit 2e5e9b701401133eacd62a5db93dbaa5cc2d8d43
+Author: Gyan <gyan@Abhisheks-MacBook-Air-63.local>
+Date:   Wed Jul 1 14:28:36 2020 +0530
+
+    hello this is gyan here
+
+commit 5dfdb5ce9bbb0cf09e1bf305141332f4f05ee8f0
+Author: Gyan <gyan@Abhisheks-MacBook-Air-63.local>
+:...skipping...
+commit d93150b6800d6b0ed396ebf6d511c392e4aed318 (HEAD -> master)
+Author: Gyan <gyan@Abhisheks-MacBook-Air-63.local>
+Date:   Wed Jul 1 15:27:17 2020 +0530
+
+    movies
+
+commit 733abe75dc770897fab3bcdd07217209675b1b3a
+Author: Gyan <gyan@Abhisheks-MacBook-Air-63.local>
+Date:   Wed Jul 1 14:51:40 2020 +0530
+
+    ram
+
+commit 3454da2358fc19eac9ac632fb8b0de8237d40da7
+Author: Gyan <gyan@Abhisheks-MacBook-Air-63.local>
+Date:   Wed Jul 1 14:42:16 2020 +0530
+
+    abi
+
+commit 2e5e9b701401133eacd62a5db93dbaa5cc2d8d43
+Author: Gyan <gyan@Abhisheks-MacBook-Air-63.local>
+Date:   Wed Jul 1 14:28:36 2020 +0530
+
+    hello this is gyan here
+
+commit 5dfdb5ce9bbb0cf09e1bf305141332f4f05ee8f0
+Author: Gyan <gyan@Abhisheks-MacBook-Air-63.local>
+Date:   Wed Jul 1 11:52:37 2020 +0530
+
+    hello gyan
+
+commit 783e9ac4b47d64c79dfe54a292c4e1990f130267 (origin/master)
+Author: Gyan <gyan@Abhisheks-MacBook-Air-63.local>
+Date:   Tue Jun 30 21:50:33 2020 +0530
+
+    week-01day-2
+
+commit e7f868a0543e9527fe1896b79779d92673580732
+Author: Gyan <gyan@Abhisheks-MacBook-Air-63.local>
+Date:   Tue Jun 30 21:45:08 2020 +0530
+
+    week-01day-2
+
+commit e9530fdb68168d959b603819b6360342c049cb49
+Author: Gyan <gyan@Abhisheks-MacBook-Air-63.local>
+Date:   Tue Jun 30 19:41:44 2020 +0530
+
+    Corrected directory path
+
+commit 9377df0a94b2d62933c6493ac653200ac6323784
+Author: Gyan <gyan@Abhisheks-MacBook-Air-63.local>
+Date:   Tue Jun 30 19:39:34 2020 +0530
+
+    removed extra file
+
+commit 8b8c165c2e0508dbe4c2a12d9e2f1bf23df1d95f
+Author: Abhishek Narayan <abhishek.narayn@gmail.com>
+Date:   Tue Jun 30 18:51:01 2020 +0530
+
+    week-01 First assignments
+~
+
+5. Git diff : This command shows changes in unstage area
+ % git diff
+diff --git a/abi b/abi
+deleted file mode 100644
+index f82ab88..0000000
+--- a/abi
++++ /dev/null
+@@ -1 +0,0 @@
+-Hello worldhii guys i am from ranchi
+diff --git a/ram b/ram
+index e69de29..9b39dc0 100644
+--- a/ram
++++ b/ram
+@@ -0,0 +1 @@
++commonly used in UNIX command are cd pwd ls ls -l touch mv rm cp cat etc
+
+6.Git diff --cached : command shows the changes in staging area
+% git diff --cached
+diff --git a/ram b/ram
+index e69de29..9b39dc0 100644
+--- a/ram
++++ b/ram
+@@ -0,0 +1 @@
++commonly used in UNIX command are cd pwd ls ls -l touch mv rm cp cat etc

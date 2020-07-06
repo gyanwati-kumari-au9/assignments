@@ -1,0 +1,40 @@
+1. ls : command to list files and folder in simple format
+% ls
+abc		abd		assignments	gyan
+
+2. ls -l : command to show details of files and folder
+% ls -l
+total 0
+-rw-r--r--  1 gyan  staff    0 Jun 30 14:20 abc
+-rw-r--r--  1 gyan  staff    0 Jun 30 14:21 abd
+drwxr-xr-x  4 gyan  staff  128 Jun 30 16:34 assignments
+drwxr-xr-x  2 gyan  staff   64 Jun 30 14:25 gyan
+
+3. pwd : pwd stand for present working directory it show current working folder
+% pwd
+/Users/gyan/gyan
+
+
+4. touch : command creates a empty files
+
+% touch xyz
+gyan@Abhisheks-MacBook-Air-63 gyan % ls -l
+total 0
+-rw-r--r--  1 gyan  staff    0 Jun 30 14:20 abc
+-rw-r--r--  1 gyan  staff    0 Jun 30 14:21 abd
+drwxr-xr-x  4 gyan  staff  128 Jun 30 16:34 assignments
+drwxr-xr-x  2 gyan  staff   64 Jun 30 14:25 gyan
+-rw-r--r--  1 gyan  staff    0 Jun 30 16:46 xyz
+
+
+5. cd.. :command will move upto one directory
+
+6. cd : it stand for change directory it is used to  move to other directory/folder
+ % cd gyan
+gyan@Abhisheks-MacBook-Air-63 gyan % pwd
+/Users/gyan/attainu 
+
+7. cd~ : command go to home directory it is shotcut method otherwise we can use home directory  path
+ % cd ~
+gyan@Abhisheks-MacBook-Air-63 ~ % pwd
+/Users/gyan
