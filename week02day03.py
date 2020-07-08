@@ -42,7 +42,7 @@ row=1
 while (row<=n) :
     column=1
     while (column<=row) :
-        print(column, end='')
+        print(str(column)+" " ,end='')
         column =column+1 
     print()       
     row=row+1
