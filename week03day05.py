@@ -4,15 +4,22 @@
 # a += i
 # i /= 2  
 
-
-#Explanation:-when N is a power of 2
+#Note:- when i>0 in this conditions loop is going in infinite loop since 
+#there is some problem in the question.
+#Explanation:- suppose i>1 then
 # i
-# N=2^logN
+# N
+# N/2
+# N/2^2
+# N/2^3
 # -------
 # -------
-# 4=2^2
-# 2=2^1
-# 1=2^0
+# N/2^n
+# Assume, it will be terminate when i<1
+# N/2^n=1
+# N=2^n
+# n=log2N       (here log base 2 N)
+
 # The loop iterates O(logN) times
 # so, Time complexity=O(logN)
 
