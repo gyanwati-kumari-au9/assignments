@@ -161,7 +161,7 @@ def sumString(num1,num2):
     retVal=""
     for dig in sum[::-1]:
         retVal+=str(dig)
-    return retVal
+    return str(int(retVal))
 
 
 num1=input("Enter number of first string: ")
