@@ -1,4 +1,4 @@
-#OOPS:-it stand for object oriented progrramig sytem.
+#OOPS:-it stand for object oriented programming system.
 # OOPS is a method of structuring a program by bundling related properties and behaviors into individual objects.
 #A Class is like an object constructor, or a "blueprint" for creating objects.
 #To create a class, use the keyword class:
