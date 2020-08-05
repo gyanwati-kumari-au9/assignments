@@ -82,7 +82,22 @@ class MyLinkedList:
             current.next = current.next.next              
 
         self.size -= 1
-        
+
+# def processCommand(command, args):
+#     print('processing command',command,args)
+#     pass  
+# if __name__=="__main__":
+#     lst=input()
+#     lst=lst.split()
+#     arrval=input()
+#     arrval=arrval.split(",")
+#     for i in range(0,len(arrval)):
+#         arrval[i]=arrval[i].split()
+#     print(lst)
+#     print(arrval)
+#     res=
+#     for i in range(0,len(lst)):
+#         processCommand(lst[i],arrval[i])       
 
 
 # Your MyLinkedList object will be instantiated and called as such:
