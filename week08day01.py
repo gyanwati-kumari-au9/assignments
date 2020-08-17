@@ -18,3 +18,19 @@ class Solution:
                 break
             root = root.right
         return root.val
+
+
+#or
+class Solution:
+    def kthSmallest(self, root: TreeNode, k: int) -> int:
+        if root is None:
+            return
+        self.res=[]
+        self.inorder(root)
+        return self.res[k-1] 
+    def inorder(self,root):
+        if root: 
+            self.inorder(root.left) 
+            #print(root.val) 
+            self.res.append(root.val)
+            self.inorder(root.right)
