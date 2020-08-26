@@ -25,3 +25,5 @@ def deleteAllOccurances(head, k):
     if (head.data == k):
         head = head.next
     return head
+
+
