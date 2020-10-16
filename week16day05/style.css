@@ -1,0 +1,22 @@
+.body{
+    background-color: skyblue;
+}
+h1{
+    font-family: fantasy;
+    font-size: 32pt;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1px 1px orange;
+    color: white;
+}
+header{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+th{
+    color: white;
+    font-size: 18pt;
+    font-family: sans-serif;
+    font-weight: bold;
+}
