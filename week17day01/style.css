@@ -1,0 +1,17 @@
+header{
+    font-family: sans-serif;
+    font-size: 12pt;
+    margin-bottom: 30px;
+    background-color: orange;
+    color: blue;
+    text-shadow: 2px 2px white;
+    padding: 30px;
+}
+.login{
+    background-color: lightgray;
+    border:2px solid blue;
+    padding: 50px;
+}
+button{
+    float: right;
+}
