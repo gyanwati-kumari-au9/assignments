@@ -1,0 +1,27 @@
+{
+  "name": "assig",
+  "version": "1.0.0",
+  "description": "Set a npm project and make it such that it supports ES6",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev-start": "NODE_ENV=dev babel-watch ./src/index",
+    "start": "npm run build && node ./dist/index",
+    "build": "npm run clean && npm run babel-build",
+    "babel-build": "babel -d ./dist ./src -s",
+    "clean": "rimraf ./dist && mkdir dist"
+  },
+  "author": "Gyan",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/node": "^7.12.6",
+    "@babel/plugin-proposal-class-properties": "^7.12.1",
+    "@babel/preset-env": "^7.12.1",
+    "babel-loader": "^8.1.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-watch": "^7.0.0",
+    "rimraf": "^3.0.2"
+  }
+}
