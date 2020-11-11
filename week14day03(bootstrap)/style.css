@@ -1,0 +1,12 @@
+h2{
+    border-bottom: 1px solid lightgray;
+    padding-top: 100px;
+    padding-bottom: 10px;
+    padding-left: 0;
+}
+footer{
+    text-align: center;
+    color: white;
+    background-color: #007BFF;
+    margin-top: 100px;
+}

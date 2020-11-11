@@ -1,0 +1,71 @@
+
+
+table,tr,th,td {
+    background-color: palegreen;
+    width: 2000px;
+    text-align: center;
+
+}
+#footer {
+    text-align: center;
+    background-color: palegreen;
+}
+
+#gallery {
+    white-space: normal;
+}
+
+#gallery > h1 {
+    color: blueviolet;
+}
+
+.food {
+    border-width: 5px;
+    border-style: solid;
+    border-color: red;
+    height: 250px;
+}
+.others {
+    border-width: 5px;
+    border-style: solid;
+    border-color: green;
+    height: 250px;
+}
+
+#para {
+    white-space: normal;
+    background-color: palegreen;
+    background: cover;
+}
+
+#para > h2 {
+    color: blueviolet;
+}
+.culture {
+    width: 2000px;
+    height: 300px;
+    background-color: palegreen;
+    
+}
+
+
+#story > h6 {
+    color: blueviolet;
+    font-size: 30px;
+}
+
+#get > h3 {
+    color: blueviolet;
+}
+#intro > h4 {
+    color: blueviolet;
+}
+
+#intro > h5 {
+    color: blueviolet;
+}
+
+#form > h1 {
+    color: blueviolet;
+}
+

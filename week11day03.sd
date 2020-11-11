@@ -1,0 +1,175 @@
+Q.1. Design Amazon e-commerce web app.
+Answer:-
+Features(Amazon e-commerce web app):-
+                               |
+                               |
+Product Goal                   | online saling, product listing
+                               |
+_______________________________|____________________________________________________________  
+                               |
+                               |User Login and Signup option
+                               |User profile
+Product scope & features       |Product Categories
+                               |Checkout Process
+                               |Search bar
+                               |Chatbox 
+                               |Product Reviews & Ratings
+                               |Push Notification 
+                               |Social Media Integration
+                               |Product filter 
+                               |Shipping
+                               |Multiple Payment Options
+                               |Wishlist Button and many more.
+_______________________________|________________________________________________________  
+                               |product inventory, product search, deamand prediction, 
+                               |product recommendation
+  Key Algorithms               |
+                               |
+_______________________________|____________________________________________________________  
+
+Schema(Amazon e-commerce web app):-
+1) users 
+      userId(string)
+      name(string)
+      email(string)
+      address(string)
+      password(string)
+      mobileNumber(integer)
+      pinCode(integer)
+      city(string)
+2) orders
+      ordersId(integer)
+      discount(float)
+      totalAmount(float)
+      date(string)
+      status(string)
+3) order_items
+     orderItemsId(integer)
+     productsDetail(string)
+     quantity(integer)
+4) products
+         prodId (integer)
+         category()
+         name(string)
+         description(string)
+         size(string)
+         colour(string)
+         image(string)
+         video(string)
+         price(float)
+5)cart_items
+     cartItemsId(integer)
+     quantity
+
+FE/UI => ReactJs (it is fast technology, latest)
+-------------------------------------------------------------
+hmoe page
+user profile page
+product category page
+products search page
+products detail page
+Checkout page
+
+BE(primary server) => NodeJs(runtime to write BE in javaScript)
+--------------------------------------------------------------------
+User Login and Signup option
+User profile
+Product Categories
+Checkout Process
+Search bar
+Chatbox
+Product Reviews & Ratings
+Push Notification
+Social Media Integration
+Product filter
+Multiple Payment Options
+Shipping 
+Wishlist Button and many more. 
+
+DB(secondary server) => Mongo DB
+----------------------------------------------
+
+
+
+Q.2. Design a Library Management System.
+Answer:-
+Features(Library Management System):-
+                               |
+                               |
+        Goal                   | manage books , issuance, return and membership
+                               |
+_______________________________|____________________________________________________________  
+                               |
+                               |User Management, Membership Management, Books management
+        Scope                  |             
+                               |
+_______________________________|____________________________________________________________  
+                               |students information
+                               |Books Entry
+        features               |Books issue
+                               |Bar code reader
+                               |Backup utility
+                               |searching of books
+                               |Reports
+                               |User Management
+                               |Books return
+                               |Fees collection
+                               |
+                               |
+                               |
+_______________________________|________________________________________________________  
+                               |
+                               |
+  Key Algorithms               |
+                               |
+_______________________________|____________________________________________________________  
+
+Schema(Library Management System)
+1)Students 
+      stdId
+      name
+      class
+      branch
+      rollNo
+      membershipPlan
+2) Books 
+      BooksName
+      Author
+      subject
+3) Admin
+       adminId
+       password
+4) Book issuance
+       BookId
+       stdId
+       issue_date
+       return_date
+
+
+FE/UI => ReactJs (it is fast technology, latest)
+-------------------------------------------------------------
+User Login and Signup option
+User profile
+Home page
+Books search page
+Books detail page
+Books issuance
+Books return
+Renew Membership 
+ 
+BE(primary server) => NodeJs(runtime to write BE in javaScript)
+--------------------------------------------------------------------
+students information
+Books Entry
+Books issue
+Bar code reader
+Backup utility
+searching of books
+Reports
+User Management
+Books return
+Fees collection
+Book Reviews & Ratings
+
+DB=> mysql
+------------------------

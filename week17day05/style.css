@@ -1,0 +1,40 @@
+header{
+    font-family: sans-serif;
+    font-size: 18pt;
+    padding: 20px;
+    background-color: orange;
+    color: green;
+    text-shadow: 1px 1px white;
+    margin-bottom: 50px;
+}
+ul{
+    list-style: none;
+    
+}
+li{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    border: 1px solid #F29B74;
+    text-align: center;
+    background-color: #F29B74;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 12pt;
+    font-weight: bold;
+}
+img{
+    width: 150px;
+    height: 100px;
+    display: block;
+}
+
+footer{
+    background-color: lightskyblue;
+    color: white;
+    text-align: center;
+    margin-top: 300px;
+    padding: 30px;
+}

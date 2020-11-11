@@ -1,0 +1,43 @@
+Q. Explain the working of a CDN with diagrams.
+Answer:- 
+CDN stands for content delivery network.
+An architecture used in many web applications to serve content files
+like images, videos, audio etc.
+In a CDN, a provide sets up a distributed collection of machines
+at locations inside the internet and uses them to serve content to
+clients. This is the choice of the big players.
+Architecture of CDN:-
+                                         _______________________________
+                                         |      origin server           |
+                                         |______________________________|
+                                             /             |        \
+                                            /              |         \
+                                           /               |          \
+                                          /                |           \
+                                         /                 |            \
+                                        /            ______|__________    \
+                          _____________/________     | America(cached)|    \
+                          |  India (cached)     |    |________________|     \__________________________
+                          |_____________________|            |       \                              ___\_________
+                               /        \                    |        \                            |Europe(cached)|        
+                              /          \                   /         \                           |______________|
+                             /       ____ \_________    ____/________   \                                /      \
+                            /       | computer n    |   | computer 1 |   \                              /        \
+                           /        |_______________|   |____________|  __\___________             ____/________  \
+                   _______/_______                                      | computer n  |           | computer 1  |  \
+                  |               |                                     |_____________|           |_____________|   \
+                  | computer 1    |                                                                               ___\_________
+                  |_______________|                                                                              | computer n  |
+                                                                                                                 |_____________|
+                                        worldwide  clients
+
+A CDN is a network of servers linked together with the goal of delivering content as quickly, 
+cheaply, reliably, and securely as possible. In order to improve speed and connectivity, 
+a CDN will place servers at the exchange points between different networks.
+These Internet exchange points (IXPs) are the primary locations where different Internet providers
+connect in order to provide each other access to traffic originating on their different networks.
+By having a connection to these high speed and highly interconnected locations, 
+a CDN provider is able to reduce costs and transit times in high speed data delivery.
+Beyond placement of servers in IXPs, a CDN makes a number of optimizations on standard client/server data transfers. 
+CDNs place Data Centers at strategic locations across the globe, enhance security, and are designed to survive various
+types of failures and Internet congestion.
