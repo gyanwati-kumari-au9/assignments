@@ -8,6 +8,8 @@ class LoginForm extends React.Component {
       // create a ref to store the DOM element
       this.nameEl = React.createRef();
       this.pwdEl = React.createRef();
+      this.ckboxEl = React.createRef();
+      this.radioEl = React.createRef();
     //   this.nameEl = this..bind(this);
       this.handleSubmit = this.handleSubmit.bind(this);
     }
@@ -37,6 +39,26 @@ class LoginForm extends React.Component {
                             <label for="exampleInputPassword1">Password</label>
                             <input type="password" class="form-control" id="exampleInputPassword1" placeholder="password" ref={this.pwdEl} />
                             <small id="emailHelp" class="form-text text-muted">Please enter your password.</small>
+                        </div>
+                        <div class="form-check">
+                          <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" ref={this.ckboxEl} />
+                          <label class="form-check-label" for="defaultCheck1">
+                            Remember me !
+                          </label>
+                        </div>
+                        <div  class="form-inline">
+                          <div class="form-check" >
+                            <input class="form-check-input" type="radio" name="Gender" id="exampleRadios1" value="Male" checked ref={this.radioEl} />
+                            <label class="form-check-label" for="exampleRadios1">
+                              Male
+                            </label>
+                          </div>&nbsp;
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="Gender" id="exampleRadios1" value="Female" checked ref={this.radioEl} />
+                            <label class="form-check-label" for="exampleRadios1">
+                              Female
+                            </label>
+                          </div>
                         </div>
                         <button type="submit" className="btn btn-primary">Login</button>
                     </form>
