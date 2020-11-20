@@ -43,6 +43,7 @@ class LoginForm extends React.Component {
                         <div class="form-check">
                           <input class="form-check-input" type="checkbox" value="" id="defaultCheck1" ref={this.ckboxEl} />
                           <label class="form-check-label" for="defaultCheck1">
+<<<<<<< HEAD
                             Default checkbox
                           </label>
                         </div>
@@ -51,6 +52,24 @@ class LoginForm extends React.Component {
                           <label class="form-check-label" for="exampleRadios1">
                             Default radio
                           </label>
+=======
+                            Remember me !
+                          </label>
+                        </div>
+                        <div  class="form-inline">
+                          <div class="form-check" >
+                            <input class="form-check-input" type="radio" name="Gender" id="exampleRadios1" value="Male" checked ref={this.radioEl} />
+                            <label class="form-check-label" for="exampleRadios1">
+                              Male
+                            </label>
+                          </div>&nbsp;
+                          <div class="form-check">
+                            <input class="form-check-input" type="radio" name="Gender" id="exampleRadios1" value="Female" checked ref={this.radioEl} />
+                            <label class="form-check-label" for="exampleRadios1">
+                              Female
+                            </label>
+                          </div>
+>>>>>>> a65e85f1b0e0a4e7fbab41a0dec3758109ac4515
                         </div>
                         <button type="submit" className="btn btn-primary">Login</button>
                     </form>
