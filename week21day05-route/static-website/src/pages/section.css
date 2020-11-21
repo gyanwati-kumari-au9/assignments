@@ -1,0 +1,13 @@
+.main{
+    display: flex;
+}
+.content{
+    box-shadow: 5px 5px 5px 5px grey; 
+    margin: 10px;
+    padding: 10px;
+}
+.search{
+    box-shadow: 5px 5px 5px 5px grey; 
+    margin: 10px;
+    padding: 10px;
+}
