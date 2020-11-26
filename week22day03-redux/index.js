@@ -1,3 +1,14 @@
+// Q. Create a node project, and do the setup of redux and make reducer such that you can
+// add/push tasks in the task array of the initial data or remove certain task from an array.
+// Below is the initial data object
+// var initialData = {
+// tasks: []
+// }
+// Types:
+// 1. ADD_TASK
+// 2. REMOVE_TASK
+
+
 var redux = require('redux');
 var createStore = redux.createStore;
 
@@ -47,3 +58,5 @@ store.dispatch({
 
 
 console.dir(store.getState());
+
+
